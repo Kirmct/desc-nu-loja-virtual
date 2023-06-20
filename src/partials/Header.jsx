@@ -12,8 +12,7 @@ export const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <NavLink className="nav-link" to="/">Produtos</NavLink>
-          <NavLink className="nav-link" to="/cart">Carrinho</NavLink>          
+          <NavLink className="nav-link" to="/">Produtos</NavLink>        
         </Nav>
       </Navbar.Collapse>
     </Container>
